@@ -28,6 +28,7 @@ public class Loader extends Applet implements Runnable {
         g.fillRect(0, 0, ClientWidth, ClientHeight);
 
         g = getGraphics();
+
         g.drawImage(screen, 0, 0, ClientWidth, ClientHeight, null);
         g.dispose();
     }
