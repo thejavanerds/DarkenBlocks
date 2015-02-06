@@ -27,6 +27,8 @@ public class Loader extends Applet implements Runnable {
         g.setColor(Color.BLACK);
         g.fillRect(0, 0, ClientWidth, ClientHeight);
 
+        world.Draw(g);
+
         g = getGraphics();
 
         g.drawImage(screen, 0, 0, ClientWidth, ClientHeight, null);
